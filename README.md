@@ -135,6 +135,14 @@ OR
 $ q
 ```
 
+---
+
+# !!!Change 'back to the top' to be 'back to table of contents'
+
+---
+
+</br>
+
 [Back To The Top](#terminal-commands-reference-doc)
 
 ---
