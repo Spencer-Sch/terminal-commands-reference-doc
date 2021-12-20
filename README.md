@@ -344,21 +344,32 @@ $ cp [fileName(OR)dirName] [dirName]/[newName]
 
 ## File Content
 
-\> = redirect standard output AND REPLACE
-
-\>> = redirect standard output AND APPEND
-
-date > [file] = replaces content of file with the info coming from date
-
-date > [file] (if file does not exist) = create file and redirect date data into it
-
-date >> [file] = appends the content of file with the info coming from date
-
-head = prints out the first 10 lines of the file
-
-head [file] = first 10 lines
-
-head [file] -n50 = first 50 lines
+### Redirect
+To redirect standard output AND REPLACE
+```
+$ [something] > [something]
+```
+To redirect standard output AND APPEND
+```
+$ [something] >> [something]
+```
+To replace content of fileName with the info coming from date. (If file does not exist fileName will be created and date data will be redirect into it).
+```
+$ date > [fileName]
+```
+To append the content of fileName with the info coming from date
+```
+$ date >> [fileName]
+```
+## head
+Will print out the first 10 lines of the file
+```
+$ head [fileName]
+```
+Will print out the first 50 lines
+```
+$ head [file] -n50
+```
 
 tail = prints out the last 10 lines of the file
 
