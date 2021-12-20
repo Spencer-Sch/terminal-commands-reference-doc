@@ -303,26 +303,40 @@ $ rm -v [fileName] [dirName]
 
 ## File/Folder Manipulation
 
-Mac
-open . = open current dir in a new window
+### To open current dir in a new window
+##### On Mac
+```
+$ open .
+```
 
-Windows
-start . = open current dir in a new window
+##### On Windows
+```
+$ start .
+```
 
-Linux
-xdg-open . = open current dir in a new window
+##### On Linux
+```
+$ xdg-open .
+```
+### mv
+To move / rename files
+```
+$ mv [fileName1] [newName]
+```
+to move fileName1 into dirName
+```
+$ mv [fileName1] [dirName]
+```
 
-mv = move / rename files
-
-mv [file1] [new_name] = rename file/folder
-
-mv [file1] [folder] = move file1 into folder
-
-cp = copy a file
-
-cp [file1] [newName] = create copy with new name in current dir
-
-cp [file/folder] [folderName]/[newName] = create copy of file/folder in named folder with new name
+### cp
+ To create copy with newName in current dir
+```
+$ cp [fileName1] [newName]
+```
+To create copy of file/directory in named directory with newName
+```
+$ cp [fileName(OR)dirName] [dirName]/[newName]
+```
 
 [Back To The Top](#terminal-commands-reference-doc)
 
