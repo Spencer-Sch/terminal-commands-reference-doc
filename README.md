@@ -13,13 +13,21 @@
 #### In the code examples I am using the following bracket syntax to indicate input from the user
 
 ```
-$ mkdir [name1]
+$ mkdir [dirName1]
 ```
 
-#### [name1] should is a placeholder for the user's desired directory name. The actual command should looks something like:
+```
+$ touch [fileName1]
+```
+
+#### [dirName1] or [fileName1] is a placeholder for the user's desired directory/file name. The actual command should look something like:
 
 ```
 $ mkdir documents
+```
+
+```
+$ touch favoriteFoods.txt
 ```
 
 </br>
