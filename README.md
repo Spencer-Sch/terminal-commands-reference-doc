@@ -113,7 +113,7 @@ $ touch favoriteFoods.txt
 - [~](#tilde)
 - [Path Name Expansions](#path-name-expansions)
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 </br>
 
@@ -156,7 +156,7 @@ $ q
 
 </br>
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -190,7 +190,7 @@ Print ALL files in current directory (includes hidden files)
 $ ls -a
 ```
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -236,7 +236,7 @@ To search the command history for any command that includes searchTerm (must be 
 $ history | grep 'searchTerm'
 ```
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -270,7 +270,7 @@ To create a file in the current directory named [name1]
 $ touch [fileName1]
 ```
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -310,7 +310,7 @@ To get feedback about deletion files
 $ rm -v [fileName] [dirName]
 ```
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -351,7 +351,7 @@ To create copy of file/directory in named directory with newName
 $ cp [fileName(OR)dirName] [dirName]/[newName]
 ```
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -483,7 +483,7 @@ grep works with regular expressions
 
 maybe look for more teaching on grep
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -495,7 +495,7 @@ uses the pipe '|' character
 
 ls -l | wc = [lines] [words] [bytes]
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
 
@@ -536,6 +536,6 @@ echo {1..99} = will return every number from 1 to 99 (inclusive)
 
 echo Day{1..369} = returns Day1 Day2 Day3 ... Day 365
 
-[Back To The Top](#terminal-commands-reference-doc)
+[Back To Table of Contents](#table-of-contents)
 
 ---
