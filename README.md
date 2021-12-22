@@ -1,6 +1,8 @@
 # Terminal Commands Reference Doc
 
-> A quick reference guide for common terminal commands
+### A quick reference guide for common terminal commands
+
+#### Source: [The 50 Most Popular Linux & Terminal Commands - by Colt Steele](https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s)
 
 ---
 
