@@ -88,6 +88,14 @@ $ touch favoriteFoods.txt
 - [tail](#tail)
 - [cat](#cat)
 - [less](#less)
+  - [less navigation](#navigation-while-in-the-less-format)
+
+---
+
+### NOTE: from here down = yet to be formated
+
+---
+
 - [echo](#echo)
 - [sort](#sort)
 - [uniq](#uniq)
