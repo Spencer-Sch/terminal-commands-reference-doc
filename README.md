@@ -410,25 +410,67 @@ To print out the first 50 lines
 $ head [file] -n50
 ```
 
-tail = prints out the last 10 lines of the file
+## tail
 
-tail [file] = last 10 lines
+To print out the last 10 lines of the file
 
-tail [file] -n50 = last 50 lines
+```
+$ tail [fileName]
+```
 
-tail -f [file] = watches and will print any edits to that file
+To print out the last 50 lines
 
-cat [file1] = print out the entire file
+```
+$ tail [fileName] -n50
+```
 
-cat [file1] [file2] ... = print out all the content of all files
+To watch the file and print any edits to that file
 
-cat [file1] [file2] ... > [newFile] = combines the contents into a new file
+```
+$ tail -f [fileName]
+```
 
-cat -n [file1] = prints the contents with line numbers
+## cat
 
-less [file1] = shows the content of a file, but in a better format
+To print out the entire file
 
-once in the less format: space scrolls down one page at a time, 'b' scrolls up one page at a time, g takes you to the beginning of the file, shift + g takes you to the end of the file, a '/' followed by a word will search for that word.
+```
+$ cat [fileName1]
+```
+
+To print out all the content of all included files
+
+```
+$ cat [fileName1] [fileName2]
+```
+
+To combine the contents of the included files into a new file
+
+```
+$ cat [fileName1] [fileName2] > [newFile]
+```
+
+To print the contents with line numbers
+
+```
+$ cat -n [fileName1]
+```
+
+## less
+
+To shows the content of a file, but in a better format
+
+```
+$ less [fileName1]
+```
+
+### Navigation while in the less format:
+
+- spacebar - scrolls down one page at a time
+- b - scrolls up one page at a time
+- g - takes you to the beginning of the file
+- shift + g - takes you to the end of the file
+- a/[anyWord] - will search for that word
 
 echo "string" = prints "string" in terminal
 
