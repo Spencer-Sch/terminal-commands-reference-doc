@@ -46,6 +46,7 @@ $ touch favoriteFoods.txt
 - [i](#i)
 - [r](#r)
 - [p](#r)
+- [n](#n)
 - enter more?
 
 ### Short Cuts
