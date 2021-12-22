@@ -74,12 +74,6 @@ $ touch favoriteFoods.txt
 - [rmdir](#rmdir)
 - [rm](#rm)
 
----
-
-### NOTE: from here down = yet to be formated
-
----
-
 ### File/Folder Manipulation
 
 - [open directory](#open)
