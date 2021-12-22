@@ -317,36 +317,49 @@ $ rm -v [fileName] [dirName]
 ## File/Folder Manipulation
 
 ### To open current dir in a new window
+
 ##### On Mac
+
 ```
 $ open .
 ```
 
 ##### On Windows
+
 ```
 $ start .
 ```
 
 ##### On Linux
+
 ```
 $ xdg-open .
 ```
+
 ### mv
+
 To move / rename files
+
 ```
 $ mv [fileName1] [newName]
 ```
+
 to move fileName1 into dirName
+
 ```
 $ mv [fileName1] [dirName]
 ```
 
 ### cp
- To create copy with newName in current dir
+
+To create copy with newName in current dir
+
 ```
 $ cp [fileName1] [newName]
 ```
+
 To create copy of file/directory in named directory with newName
+
 ```
 $ cp [fileName(OR)dirName] [dirName]/[newName]
 ```
@@ -358,22 +371,31 @@ $ cp [fileName(OR)dirName] [dirName]/[newName]
 ## File Content
 
 ### Redirect
+
 To redirect standard output AND REPLACE
+
 ```
 $ [something] > [something]
 ```
+
 To redirect standard output AND APPEND
+
 ```
 $ [something] >> [something]
 ```
+
 To replace content of fileName with the info coming from date. (If file does not exist fileName will be created and date data will be redirect into it).
+
 ```
 $ date > [fileName]
 ```
+
 To append the content of fileName with the info coming from date
+
 ```
 $ date >> [fileName]
 ```
+
 ## head
 Will print out the first 10 lines of the file
 ```
