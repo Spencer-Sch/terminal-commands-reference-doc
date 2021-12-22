@@ -397,11 +397,15 @@ $ date >> [fileName]
 ```
 
 ## head
-Will print out the first 10 lines of the file
+
+To print out the first 10 lines of the file
+
 ```
 $ head [fileName]
 ```
-Will print out the first 50 lines
+
+To print out the first 50 lines
+
 ```
 $ head [file] -n50
 ```
